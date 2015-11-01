@@ -12,7 +12,7 @@ import org.testng.Assert;
 
 /**
  * 
- * PageObject for RegistrationPage
+ * PageObject for Dealer selection Page
  *
  */
 public class DealerSelectionPage {
