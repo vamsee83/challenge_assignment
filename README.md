@@ -22,10 +22,10 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 The html report is available at ./target/surefire-reports/emailable-report.html
 
 -brief explanation of your approach
-Build tool: Maven
-Framework: TestNG
-Programming language: Java
-Tools: Selenium webdriver
+1. Build tool: Maven
+2. Framework: TestNG
+3. Programming language: Java
+4. Tools: Selenium webdriver
 The tests are automated using Java programming language and selenium webdriver API's. The framework is TestNG. I used PageObject pattern, which provides more flexibility for future changes
 and keeps things organized. 
 Maven build tool will take care of downloading all dependencies.
