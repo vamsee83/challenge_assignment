@@ -35,4 +35,4 @@ Maven build tool will take care of downloading all dependencies.
  2. Cross browser support, right now the tests are running in chrome browser. We need run them in IE,firefox etc and make sure thier is no issues.
  
 -compromises made
- I added basic checks in each page, if i had more time i would like to add more checks to verify the data in each page.
+ 1. I added basic checks in each page, if i had more time i would like to add more checks to verify the data in each page.
