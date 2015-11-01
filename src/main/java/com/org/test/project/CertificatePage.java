@@ -14,7 +14,7 @@ import org.testng.Assert;
 
 /**
  * 
- * PageObject for RegistrationPage
+ * PageObject for Certificate Page
  *
  */
 public class CertificatePage {
