@@ -1,0 +1,58 @@
+<settings>
+
+
+  <mirrors>
+    <mirror>
+      <id>brs</id>
+      <mirrorOf>*,!public,!snapshot</mirrorOf>
+      <name>Internal Maven Repository Manager</name>
+      <url>http://repo.maven.apache.org/maven2/</url>
+    </mirror>
+  </mirrors>
+
+  <!-- localRepository
+   | The path to the local repository maven will use to store artifacts.
+   | Re-configure this setting if you dont have decent diskspace at default location
+   | Default: ${user.home}/.m2/repository
+  <localRepository>/path/to/local/repo</localRepository>
+  -->
+
+  <profiles>
+    <profile>
+      <id>redefine-default-repositories</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+
+  <pluginGroups>
+    <pluginGroup>com.emc.brs.maven.plugins</pluginGroup>
+  </pluginGroups>
+
+
+</settings>
