@@ -22,6 +22,7 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 The html report is available at ./target/surefire-reports/emailable-report.html
 
 -brief explanation of your approach
+
 1. Build tool: Maven
 2. Framework: TestNG
 3. Programming language: Java
